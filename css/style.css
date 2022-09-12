@@ -1,0 +1,90 @@
+body{
+    background: rgb(225, 225, 225);
+}
+
+.cor-padrao{
+    background-color: #5995b6 !important;
+    border-color: #4c7b94 !important;
+    color: white;
+}
+
+.navbar{
+    margin-bottom: 0 !important;
+    border-radius: 0;
+}
+
+.nav li a svg{
+    margin-bottom: 5px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+header#header{
+    background: #333;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#header h2{
+    margin-top: 20px;
+}
+
+#header p{
+    margin-top: 20px;
+    position: relative;
+    top: 9px;
+}
+
+header svg{
+    margin-bottom: 5px;
+}
+
+.bread .container .breadcrumb{
+    background: rgb(220, 220, 220) !important;
+    border: 1px solid #ccc;
+    height: 40px;
+    padding-left: 12px;
+    padding-top: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.col-md-9 .panel{
+    margin-bottom: 30px;
+}
+
+.panel-headding h3{
+    padding-left: 10px;
+    height: 40px;
+    margin: 0;
+}
+
+.panel-body{
+    background: white;
+    width: 100%;
+    height: auto;
+    padding: 20px 15px;
+}
+
+.panel-body textarea{
+    margin-top: 8px;
+    margin-bottom: 15px;
+    height: 140px;
+    resize: vertical;
+}
+
+@media screen and (max-width: 1000px) {
+    #header{
+        text-align: center;    
+    }
+
+    #header p{
+        margin-top: 20px;
+        position: relative;
+        top: 0px;
+        left: 2px
+    } 
+}
